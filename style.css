@@ -1,0 +1,661 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*TEXT*/
+
+
+.text-titulo{
+    color: rgb(84, 24, 224);
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+      
+}
+.text-bienvenida{
+    font-size: 1.5em;
+    color: black;
+    width: 80%;
+    margin: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-opiniones{
+    color: rgb(43, 4, 4);
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+.text-p-destacado{
+    margin: 2em;
+    color: rgb(84, 24, 224);
+    background-color: black;
+    text-decoration: underline;
+    border-radius: 1em;
+    margin-top: 4%;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-bottom: 4%;
+    padding: 4px;
+}
+
+.text-consultas{
+    color: blueviolet;
+    text-decoration: none;
+    margin-top: 5%;
+    padding-top: 1em;
+}
+
+.text-catalogo{
+    background-color: rgba(253, 133, 246, 0.5);
+    font-size: 1.2em;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 1em;
+}
+
+.text-formas-pagos{
+    text-align: right;
+    font-size: 1em;
+    
+}
+
+.text-nosotros{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+.redes-contacto{
+    text-align: right;
+}
+
+/*FIN DE TEXT*/
+
+
+/*PARRAFOS*/
+
+.p-nosotros{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: solid;
+    border-color: crimson;
+    margin-left: 30px;
+    background-color:floralwhite;
+    margin-top: 3em;
+    
+}
+
+.p-opiniones{
+    color: black;
+    font-size: 1em;
+    
+}
+
+/*FIN DE PARRAFOS*/
+
+
+
+header img{
+
+    width: 100%;
+    height: 20em;
+}
+
+.foto-tienda-nosotros1{
+    padding-bottom: 5px;
+}
+
+.foto-tienda-nosotros2{
+    padding-bottom: 5px;
+}
+
+.foto-tienda-nosotros3{
+    padding-bottom: 5px;
+
+}
+
+/*LABEL*/
+
+label{
+    color: black;
+    font-size: 1.2em;
+} 
+
+/* INICIO DE NAV*/
+
+#nav{
+    
+    border: solid;
+    border-color: black;
+    
+}
+
+.navbar{
+    background-color: #e9f360;
+}
+
+.nav-item{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+/*FIN DE NAV*/
+
+/*INICIO DE BG*/
+
+
+.bg-pattern{
+    background-image: url(img/libro.jpg);
+    background-repeat: repeat;
+
+   
+}  
+
+.bg-bienvenida{
+    background-color: rgba(255, 127, 80, 0.5);
+    border-radius: 1em;
+    margin-top: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+
+/*FIN DE BG*/
+
+.box{
+    border: 1em;
+    width: 50%;
+}
+
+
+
+
+/*INICIO DE FOOTER*/
+
+footer{
+    background-color: rgba(196, 173, 190, 0.5);
+    border: solid;
+    padding: 1em;
+    
+}
+
+footer ul{
+    
+    list-style: none;
+}
+
+
+.separador{
+    color: gray;
+}
+
+footer img{
+    width: 2em;
+    height: auto;
+}
+
+.footer-contacto{
+    font-size: 1em;
+    color: black; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.footer-descuento{
+    font-size: 1em;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+
+/*FIN DE FOOTER*/
+
+
+
+/*INICIO DE TITULOS*/
+
+#titulo-promociones{
+    font-size: 1.5em;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2%;
+
+}
+
+#titulo-catalogo{
+    font-size: 1.5em;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+#titulo-contacto{
+    font-size: 1.5em;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#titulo-nosotros{
+    font-size: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/*FIN DE TITULOS*/
+
+#buscador-catalogo{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 1.5em;
+    
+}
+.button-carrito{
+    height: 2em;
+    margin: 5px;
+}
+
+
+/*INICIO DE FORMULARIOS*/
+
+.formulario-nombre{
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+.formulario-apellido{
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+.formulario-email{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.formulario-telefono{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.formulario-asunto{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.formulario-mensaje{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+/*FIN DE FORMULARIOS*/
+
+
+
+/*INICIO DE CONTENEDORES*/
+
+
+.contenedor-img-equipo-de-trabajo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-top: 2em;
+}
+
+
+
+
+.contenedor-opiniones{
+    background-color: rgba(154, 241, 233, 0.5);
+    border-radius: 1em;
+    border: solid;
+    text-align: left;
+    margin: 1em;
+}
+
+.contenedor-img{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+
+
+.contenedor-promociones{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.contenedor-formulario{
+    background-color: rgba(253, 133, 246, 0.5);
+    margin: 0 auto;
+    width: 25em;
+    margin-bottom: 3em;
+    padding: 10px;
+    border-radius: 2em;
+    border: solid;
+}
+
+.contenerdo-catalogo{
+    height: auto;
+}
+
+.contenedor-footer{
+    margin-top: 2em;
+
+}
+
+.contenedor-maps{
+    color: black;
+    margin-top: 10em;
+    margin-left: 20em;
+    margin-left: 0px;
+}
+
+
+
+.contenedor-fotos-tienda-nosotros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 10em;
+    margin-left: 10px;
+    
+}
+
+/*FIN DE CONTENEDORES*/
+
+/*INICIO DE CARDS*/
+
+.card-title{
+    text-align: center;
+    font-size: 1.2 em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: solid;
+    border-color: darkseagreen;
+    
+}
+
+.card-text{
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    border-color: salmon;
+}
+.card{
+    width: 10em;
+    height: auto;
+}
+
+.card-img-top{
+    border: solid;
+    border-color: teal;
+    
+}
+
+.card-body{
+    border: solid;
+    border-color: teal;
+    background-color: aliceblue;
+}
+
+
+
+/*FIN DE CARDS*/
+
+
+.filters{
+    padding: 0 20px 30px 30px;
+}
+
+.filters a{
+    color: black;
+    font-size: 1.2em;
+    text-decoration: none;
+    margin-bottom: 4px;
+    text-transform: lowercase;
+   
+}
+
+.filters a:hover{
+    color: brown;
+}
+
+.filters select{
+    color: darkgreen;
+    background-color: ghostwhite;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+
+}
+
+.filters li{
+    list-style: none;
+}
+
+.filters label{
+    padding-left: 10px;
+}
+
+.filters p{
+    font-size: 1.4em;
+    padding-left: 10px;
+}
+
+.actions{
+    font-size: 0.8em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.actions button{
+    
+    margin-left: 10px;
+    background-color: aqua;
+    color: black;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+}
+
+/*Productos del descuento*/
+
+/*GRID*/
+
+.tienda{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px repeat(3,500px);
+    grid-template-areas: 
+    "actions actions actions actions"
+    "filters uno dos tres"
+    "filters cuatro cinco seis"
+    "filters siete ocho nueve";
+}
+
+.tienda section{
+    border-radius: 10px;
+}
+.tienda .actions{
+    background-color: beige;
+    padding: 0 30px;
+    grid-area: actions;
+
+}
+
+.tienda .filters{
+    grid-area: filters;
+}
+
+.tienda .prod1{
+    grid-area: uno;
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.tienda .prod2{
+    grid-area: dos;
+    display: flex;
+    align-items: stretch;
+}
+
+.tienda .prod3{
+    grid-area: tres;
+    display: flex;
+    align-items: stretch;
+    
+}
+
+.tienda .prod4{
+    grid-area: cuatro;
+    display: flex;
+    align-items: stretch;
+    padding-top: 5px;
+}
+
+.tienda .prod5{
+    grid-area: cinco;
+    display: flex;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tienda .prod6{
+    grid-area: seis;
+    display: flex;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.tienda .prod7{
+    grid-area: siete;
+    display: flex;
+    align-items: stretch;
+    padding-top: 5x;
+    padding-bottom: 5px;
+}
+
+.tienda .prod8{
+    grid-area: ocho;
+    display: flex;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.tienda .prod9{
+    grid-area: nueve;
+    display: flex;
+    align-items: stretch;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/*FIN DE GRID*/
+
+.titulo-ofertas{
+    
+        margin: 2em;
+        color: rgb(3, 3, 5);
+        background-color: rgb(102, 245, 197);
+        text-decoration: underline;
+        border-radius: 1em;
+        margin-top: 2%;
+        margin-right: 30%;
+        margin-left: 30%;
+        margin-bottom: 4%;
+        padding: 4px;
+}
+
+
+/*1er Breackpoint*/
+
+@media (min-width: 320px){
+
+    /*Los cambios*/
+
+    .tienda{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows:2% repeat(7,1fr);
+        grid-template-areas: 
+        "actions actions actions"
+        "filters uno dos"
+        "filters tres cuatro"
+        "filters cinco seis"
+        "filters siete ocho"
+        "filters nueve nueve"
+        "footer footer footer";
+
+    }
+
+}
+    
+
+/*2do breackpoint*/
+
+@media (min-width: 1200px){
+
+    .tienda{
+
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px repeat(3,500px);
+    grid-template-areas: 
+    "actions actions actions actions"
+    "filters uno dos tres"
+    "filters cuatro cinco seis"
+    "filters siete ocho nueve";
+    }
+    
+   
+}
+
+/*3er breackpoint*/
+
+@media (max-width: 320px){
+    .prod-desc-1, .prod-desc-2, .prod-desc-3, .prod-desc-4,.prod-desc-5, .prod-desc-6, .prod-desc-7, .prod-desc-8, .prod-desc-9 {
+        width: 50%;
+    }
+
+    
+}
+
+
+
+
