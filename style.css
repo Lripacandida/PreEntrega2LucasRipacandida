@@ -510,7 +510,7 @@ footer img{
 }
 .tienda .actions{
     background-color: beige;
-    padding: 0 30px;
+    padding: 0;
     grid-area: actions;
 
 }
@@ -607,22 +607,38 @@ footer img{
 
 /*1er Breackpoint*/
 
-@media (min-width: 320px){
+@media (min-width: 400px){
 
     /*Los cambios*/
+    
+    nav{
+        width: 100%;
+    }
+
+    footer{
+        width: 100%;
+    }
 
     .tienda{
-        grid-template-columns: repeat(3,1fr);
-        grid-template-rows:2% repeat(7,1fr);
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows:2% repeat(10,1fr);
         grid-template-areas: 
-        "actions actions actions"
-        "filters uno dos"
-        "filters tres cuatro"
-        "filters cinco seis"
-        "filters siete ocho"
-        "filters nueve nueve"
-        "footer footer footer";
+        "actions actions"
+        "filters uno"
+        "filters dos"
+        "filters tres"
+        "filters cuatro"
+        "filters cinco"
+        "filters seis"
+        "filters siete"
+        "filters ocho"
+        "filters nueve"
+        "footer footer";
 
+
+    }
+    .card{
+        margin-bottom: 2em;
     }
 
 }
@@ -646,15 +662,11 @@ footer img{
    
 }
 
-/*3er breackpoint*/
 
-@media (max-width: 320px){
-    .prod-desc-1, .prod-desc-2, .prod-desc-3, .prod-desc-4,.prod-desc-5, .prod-desc-6, .prod-desc-7, .prod-desc-8, .prod-desc-9 {
-        width: 50%;
-    }
+
 
     
-}
+
 
 
 
